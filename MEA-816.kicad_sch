@@ -1,0 +1,189 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f095ed77-4d0a-4b62-95be-098acb31c600")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4c9605-4f85-49a6-a0b2-3f863b3bcd29")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31de342-d840-4ac7-9276-13842842bde9")
+	)
+	(sheet
+		(at 115.57 53.34)
+		(size 30.48 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21b02bc9-ca72-4536-88d6-9ef956d8945e")
+		(property "Sheetname" "CPU"
+			(at 115.57 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 115.57 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{CLK}" input
+			(at 115.57 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27eccb46-d0dd-4043-afa8-d40ec1448771")
+		)
+		(pin "CLK" input
+			(at 115.57 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bf93cf0c-c1d1-411f-8c1c-2085b617411c")
+		)
+		(instances
+			(project "MEA-816"
+				(path "/f095ed77-4d0a-4b62-95be-098acb31c600"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 53.34)
+		(size 38.1 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9b527d1-2367-4847-a9c2-c77472fbbc06")
+		(property "Sheetname" "Clock"
+			(at 53.34 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clock.kicad_sch"
+			(at 53.34 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" output
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc8bf720-c412-423e-a75f-f9e2c76adf39")
+		)
+		(pin "~{CLK}" output
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "409810c7-9d24-432e-94c8-8225015cc8f5")
+		)
+		(pin "SDA" bidirectional
+			(at 53.34 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4428e2e-1090-417b-95a4-d0abb4915d13")
+		)
+		(pin "SCL" input
+			(at 53.34 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4191ef12-df3d-49bc-bdb6-b8d0184eb38d")
+		)
+		(pin "CLK_ENABLE" input
+			(at 53.34 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa59c8e6-0b79-4e4c-af01-e491e7343de9")
+		)
+		(pin "UART_CLK" output
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27593840-d7cb-4b4d-b304-1db847d2be99")
+		)
+		(instances
+			(project "MEA-816"
+				(path "/f095ed77-4d0a-4b62-95be-098acb31c600"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
