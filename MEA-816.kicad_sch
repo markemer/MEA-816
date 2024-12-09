@@ -46,7 +46,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CPU.kicad_sch"
+		(property "Sheetfile" "Sheets/CPU.kicad_sch"
 			(at 115.57 70.4346 0)
 			(effects
 				(font
@@ -104,7 +104,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Clock.kicad_sch"
+		(property "Sheetfile" "Sheets/Clock.kicad_sch"
 			(at 53.34 70.4346 0)
 			(effects
 				(font

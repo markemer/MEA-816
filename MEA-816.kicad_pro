@@ -237,7 +237,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "MEA-WDC-65XX"
+      "MEA-WDC-65XX",
+      "MEA-PMIC"
     ]
   },
   "meta": {
